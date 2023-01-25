@@ -2,11 +2,12 @@ import React from 'react';
 import ContactUs from '../../ContactUs/ContactUs';
 import Pricing from '../../Pricing/Pricing';
 import Product from '../../Product/Product';
+import Banner from '../Banner/Banner';
 
 const Home = () => {
     return (
         <div>
-            <h3 className='text-2xl'>This is Home Page</h3>
+            <Banner></Banner>
             <Product></Product>
             <Pricing></Pricing>
             <ContactUs></ContactUs>
