@@ -2,7 +2,7 @@ import React from 'react';
 
 const Banner = () => {
     return (
-        <div>
+        <section>
             <div className="hero h-[500px] mb-5" style={{ backgroundImage: `url("https://images.pexels.com/photos/3184292/pexels-photo-3184292.jpeg?auto=compress&cs=tinysrgb&w=600")` }}>
                 <div className="hero-overlay bg-green-500 bg-opacity-60"></div>
                 <div className="hero-content text-center text-neutral-content">
@@ -13,7 +13,7 @@ const Banner = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     );
 };
 
