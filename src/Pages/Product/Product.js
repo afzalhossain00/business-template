@@ -3,7 +3,7 @@ import { FaRegStar } from 'react-icons/fa';
 
 const Product = () => {
     return (
-        <section className='my-10'>
+        <section className='my-20'>
             <h2 className='text-3xl text-center font-bold'>OUR PRODUCT</h2>
             <div class="grid grid-cols-1 md:grid-cols-3 gap-4 justify-evenly text-base-content mt-10 ">
                 <div className='text-center'>
