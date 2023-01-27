@@ -10,7 +10,7 @@ const ErrorPage = () => {
                     <p className="pt-4"><small className='font-semibold text-3xl'>Page Not Found.</small></p> <br />
                     <Link
                         to='/'
-                        className='px-4 py-3 font-semibold rounded-lg bg-orange-400 hover:bg-orange-500 text-gray-900'
+                        className='px-4 py-3 font-semibold rounded-lg bg-success hover:bg-primary text-gray-900'
                     > Back to Home
                     </Link>
                 </div>
