@@ -1,7 +1,9 @@
 import React from 'react';
 import { FaRegStar } from 'react-icons/fa';
+import useTitle from '../../Hooks/UseTitle';
 
 const Product = () => {
+    useTitle('Product')
     return (
         <section className='my-20'>
             <h2 className='text-3xl text-center font-bold'>OUR PRODUCT</h2>

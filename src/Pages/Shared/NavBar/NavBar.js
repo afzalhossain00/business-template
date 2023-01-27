@@ -25,7 +25,7 @@ const NavBar = () => {
                 </div>
                 {/* <a href='/' className="font-semibold normal-case text-xl">BusinessTemplate</a> */}
 
-                <Link className="btn btn-ghost normal-case text-xl">
+                <Link to='/' className="btn btn-ghost normal-case text-xl">
                     <img className='rounded-lg mr-2' style={{ width: '45px', height: '40px' }} src={logo} alt="" />
                     <Link style={{ textDecoration: 'none', color: 'black' }} className='font-bold text-2xl' to="/"></Link>
                 </Link>
